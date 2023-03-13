@@ -1,4 +1,4 @@
-def num_to_array(num):
+def encode(num):
     binary = str(bin(num))[2:]
     while len(binary) < 12:
         binary = "0" + binary
