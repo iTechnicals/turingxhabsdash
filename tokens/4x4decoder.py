@@ -2,7 +2,7 @@ import cv2
 
 def readimg(filename):
     # NB image loaded in grayscale
-    img = cv2.imread("token.png", 0)
+    img = cv2.imread(filename, 0)
     data = [["0", "0", "0", "0"],
             ["0", "0", "0", "0"],
             ["0", "0", "0", "0"],
