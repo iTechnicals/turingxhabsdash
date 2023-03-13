@@ -19,7 +19,7 @@ def readimg(filename):
                     totalcolor += img[x][y]
             avgcolor = totalcolor / (xsize * ysize)
             # Decides whether the pixel was white or black
-            if avgcolor >= 90:
+            if avgcolor >= 100:
                 data[i][j] = "0"
             else:
                 data[i][j] = "1"
