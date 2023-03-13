@@ -1,2 +1,2 @@
-# habsdashturing
-HabsDash x Turing project
+# turingxhabsdash
+Turing x Habsdash project
