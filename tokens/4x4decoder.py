@@ -35,6 +35,8 @@ def align(data):
 def decode(data):
     value = 0
     lindata = data[0] + data[1] + data[2] + data[3]
+    if not (lindata[6] == "1" and lindata[9] == "1" and lindata[10] == "1"):
+        return None
     lindata = lindata[:5] + lindata[7:9] + lindata[11:]
     for i, j in enumerate(lindata):
         value += int(j)*2**(11-i)
